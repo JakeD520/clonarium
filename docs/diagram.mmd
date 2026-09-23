@@ -1,0 +1,27 @@
+
+flowchart TD
+    %% Nodes
+    A["Starter Guide"]
+    B["Make Flowchart"]
+    n1(["Gem Icon"])
+    C["Learn More"]
+    D{"Use the editor"}
+    n2("Many shapes")
+    E["Visual Editor"]
+    F["Add node in toolbar"]
+    G["AI chat"]
+    H["Open AI in side menu"]
+    I["Text"]
+    J["Type Mermaid syntax"]
+
+    %% Edge connections between nodes
+    A --> B --> C --> n1 & D & n2
+    D -- Build and Design --> E --> F
+    D -- Use AI --> G --> H
+    D -- Mermaid js --> I --> J
+
+    %% Individual node styling
+    style E color:#FFFFFF, fill:#AA00FF, stroke:#AA00FF
+    style G color:#FFFFFF, stroke:#00C853, fill:#00C853
+    style I color:#FFFFFF, stroke:#2962FF, fill:#2962FF
+

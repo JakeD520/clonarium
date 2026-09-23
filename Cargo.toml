@@ -6,4 +6,5 @@ edition = "2024"
 [dependencies]
 avian2d = "0.7.0"
 bevy = "0.19.1"
+bevy_ecs_ldtk = "0.15.0"
 petgraph = "0.8.3"
